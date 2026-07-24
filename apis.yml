@@ -1,7 +1,28 @@
 aid: breezy
 name: Breezy
-description: 'Breezy is a company surfaced as a portfolio company of fifth-wall and added to the API Evangelist
-  network as a stub for enrichment. Sector: proptech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Breezy is a Los Angeles-based proptech startup building what it calls
+  the first independent AI operating system for residential real estate. Founded in
+  2024 by top-producing agent James Harris alongside Afterpay co-founders Nick Molnar
+  and Anthony Eisen, the mobile-first app consolidates an agent''s workflow — comparable
+  market analysis (comps), AI meeting notes, deal-pipeline management, client insights
+  and an AI assistant — into a single workspace, and adds an "UnderBuilt Radar" that
+  uses zoning, geospatial and setback data to flag properties with unrealized development
+  potential across 1,200+ cities. Breezy raised a $10M pre-seed led by Ribbit Capital
+  with participation from Fifth Wall, DST Global Partners, Liquid 2 Ventures, O.G.
+  Venture Partners, Fidji Simo and David Marcus. The company exposes no public developer
+  API today; this profile tracks it as a Fifth Wall portfolio lead.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/baSdJR5TNH1KsloGHbGGpOkjGXA.png
 url: https://raw.githubusercontent.com/api-evangelist/breezy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +30,19 @@ x-backed-by:
 - fifth-wall
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-headquarters: Los Angeles, CA, USA
+x-founded: '2024'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Proptech
+- Real Estate
+- Real Estate Technology
+- Artificial Intelligence
+- CRM
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +50,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/breezy-domain-security.yml
 - type: Website
   url: https://www.breezy.com/
+- type: About
+  url: https://www.breezy.com/about
+- type: Support
+  url: https://www.breezy.com/contact
+- type: PrivacyPolicy
+  url: https://www.breezy.com/privacy
+- type: TermsOfService
+  url: https://www.breezy.com/terms
+- type: iOSApp
+  url: https://apps.apple.com/us/app/breezy-your-real-estate-os/id6754045499
+- type: AndroidApp
+  url: https://play.google.com/store/apps/details?id=com.breezymobile
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
