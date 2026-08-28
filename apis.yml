@@ -11,6 +11,17 @@ description: 'Breezy is a Los Angeles-based proptech startup building what it ca
   with participation from Fifth Wall, DST Global Partners, Liquid 2 Ventures, O.G.
   Venture Partners, Fidji Simo and David Marcus. The company exposes no public developer
   API today; this profile tracks it as a Fifth Wall portfolio lead.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
