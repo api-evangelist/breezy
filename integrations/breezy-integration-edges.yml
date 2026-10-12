@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/breezy/integrations
+- https://n8n.io/integrations/breezy/
+- https://composio.dev/toolkits/breezy
+- https://monid.ai/tools/breezy
+checked:
+- https://composio.dev/toolkits/breezy
+- https://monid.ai/tools/breezy
+- https://n8n.io/integrations/breezy/
+- https://zapier.com/apps/breezy/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
